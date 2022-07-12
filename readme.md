@@ -2,7 +2,7 @@
 ## Django Crud Rest API Server | MongoDB | By Mohammed Zahid Wadiwale
 
 ### About
-This Project is created by Mohammed Zahid Imityaz Wadiwale as a assigment submission for internship at credence analytics. It is a Django based CRUD REST API Server that uses MongoDB as Database Engine. It uses Django Rest Framework for API. Since django dont have inbuild support for MongoDB, hence I have used djongo, a module for Django which transpiles SQLite commands to MongoDB JSON commands. Django by default does not allows cross origin request and therefore I have used django cors headers module.
+This Project is created by Mohammed Zahid I. Wadiwale as a assigment submission for internship at credence analytics. It is a Django based CRUD REST API Server that uses MongoDB as Database Engine. It uses Django Rest Framework for API. Since django dont have inbuild support for MongoDB, hence I have used djongo, a module for Django which transpiles SQLite commands to MongoDB JSON commands. Django by default does not allows cross origin request and therefore I have used django cors headers module.
 ---
 ### Demonstration Video
 Youtube Link: 
