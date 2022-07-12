@@ -13,7 +13,7 @@ def movie_list(request):
 		movies = movie.objects.all()
 		name = request.GET.get('name', None)
 		if name is not None:
-			movies = movies.filter(name__icontains=title)
+			movies = movies.filter(name__icontains=name)
 		movies_serializer = movieSerializer(movies, many=True)
 		return JsonResponse(movies_serializer.data, safe=False)
 		# 'safe=False' for objects serialization
